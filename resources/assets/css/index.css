@@ -2,3 +2,67 @@
     font-size: 1.3rem;
     cursor: pointer;
 }
+
+
+.form-label-group>input:not(:focus):not(:placeholder-shown)~label {
+color:#041e2f !important;
+
+}
+
+
+.vs-checkbox-con input:checked~.vs-checkbox {
+ 
+    border-color: #5D87FF;
+}
+
+body {
+background:#041e2f !important;
+
+}
+
+.login-page.bg-40 {
+background:#041e2f !important;
+
+}
+
+
+.login-btn {
+    padding-left: 2rem!important;
+    padding-right: 1.5rem!important;
+border-radius:18px;
+    color: #fff;
+    background: #00c7b4;
+border-color:#00c7b4;
+}
+
+.login-btn:hover {
+    padding-left: 2rem!important;
+    padding-right: 1.5rem!important;
+border-radius:18px;
+    color: #fff;
+    background: #00c7b4;
+border-color:#00c7b4;
+opacity:0.8;
+}
+
+form#login-form .login-btn {
+margin-bottom:30px;
+}
+
+
+.login-page-right {
+
+    background: url(https://fra1.digitaloceanspaces.com/testcms/assets/imgs/register.jpg) !important;
+background-size:cover !important;
+}
+
+
+
+/* Dashboard */
+
+
+.header-navbar {
+     background: #00c7b4 !important;
+}
+
+
